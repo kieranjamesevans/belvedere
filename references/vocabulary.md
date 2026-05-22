@@ -8,73 +8,77 @@ All names should be output in camelCase.
 These are the authoritative names for UI components. Aliases in parentheses should be normalized to the canonical name.
 
 ### Navigation/Structure
-- accordion (collapse, disclosure, expandable)
-- breadcrumbs
-- carousel
+- accordion (collapse, disclosure, expandable, arrowToggle, collapsible, collapsibleSections, details, expander)
+- breadcrumbs (breadcrumbTrail)
+- carousel (contentSlider)
 - drawer (tray, flyout, sheet)
-- dropdownMenu
+- dropdownMenu (selectMenu)
 - footer
 - header
-- navigation (nav, menu)
-- tabs (tabbedInterface)
+- hero (jumbotron, promoBanner)
+- modal (dialog, popup, modalWindow)
+- navigation (nav, menu, topNav)
+- tabs (tabbedInterface, tabset, contentTabs, sectionTabs)
 - treeView
 
 ### Actions
-- button
-- buttonGroup
-- link
-- dropdown
+- button (cta)
+- buttonGroup (toolbar)
+- link (anchor, hyperlink)
+- segmentedControl (toggleButtonGroup)
 
 ### Forms
 - checkbox
-- combobox (autocomplete)
+- combobox (autocomplete, autosuggest)
 - colorPicker
 - dateInput
-- datepicker (calendar)
-- form
-- label
-- radioButton
-- richTextEditor
-- searchInput
-- select
+- datepicker (calendar, datetimePicker)
+- fieldset
+- form (formPanel)
+- label (formLabel)
+- radioButton (radio, radioGroup)
+- rating
+- richTextEditor (rte, wysiwygEditor)
+- searchInput (search)
+- select (dropdown, selectInput)
 - slider (rangeInput)
-- stepper (numberInput)
-- textInput
+- stepper (nudger, quantity, counter, numberInput)
+- textInput (textbox, textBox)
 - textarea
-- toggle (switch)
-- fileUpload (dropzone)
+- toggle (switch, lightswitch, toggleButton)
+- fileUpload (dropzone, fileInput, fileUploader)
 
 ### Content/Display
-- avatar
-- card
+- avatar (portrait, profileImage, profilePhoto, userAvatar, userImage)
+- card (tile, contentTile)
 - emptyState
-- file
-- image
-- quote
-- video
+- file (attachment, download)
+- image (picture)
+- quote (pullQuote, blockQuote)
+- video (videoPlayer)
 - heading
 - icon
-- separator (divider)
+- separator (divider, horizontalRule, verticalRule)
 
 ### Data/Layout
-- list
+- list (listView)
 - table
-- pagination
+- pagination (pageControls, pageNav, pager)
 - stack
 
 ### Utility
-- tooltip
+- tooltip (toggletip)
 - popover
 - skipLink
-- visuallyHidden
+- visuallyHidden (screenreaderOnly)
 
 ### Feedback/Status
-- alert (notification, banner, callout)
-- badge (tag, chip)
-- progressBar
-- progressIndicator (timeline)
-- skeleton (loadingState)
-- spinner (loader)
+- alert (notification, banner, callout, feedback, message)
+- badge (tag, chip, label, statusBadge, statusChip, statusPill, tagPill)
+- progressBar (progress)
+- progressIndicator (timeline, meter, progressTracker, steps, stepperProgress)
+- skeleton (loadingState, skeletonLoader)
+- spinner (loader, loading)
 - toast (snackbar)
 
 ---
